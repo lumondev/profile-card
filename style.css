@@ -44,6 +44,12 @@ body {
   text-align: center;
   border-radius: 20px;
   overflow: hidden;
+  width: 375px;
+}
+
+.card__header img {
+  width: 375px;
+  height: auto;
 }
 
 .card__body {
@@ -71,7 +77,7 @@ body {
           justify-content: space-evenly;
   width: 100%;
   padding: 20px;
-  border-top: 0.3px solid #969696;
+  border-top: 1px solid #969696;
 }
 
 .card__footer-numbers {
